@@ -1,3 +1,121 @@
-/* This file is for your main application css. */
+header {
 
-@import "./phoenix.css";
+
+  padding-left: 20px;
+font-size: 2em;
+}
+
+header .x {
+  color: #93a1a1;
+  background-color: #002b36;
+}
+
+header .y {
+
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h1.a {
+  font-family: buena-park-jf,serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1.b {
+  font-size: 2.5em;
+  font-family: acier-bat-noir,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1.c {
+  font-size: 3em;
+  font-family: baroque-text-jf, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1.d {
+  font-size: 3em;
+  font-family: avebury-inline, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1.e {
+  font-size: 2.5em;
+  font-family: acier-bat-gris, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1.f {
+  font-family: brim-narrow-combined-3, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1.g {
+  font-family: brim-narrow-combined-2, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "cronos-pro-caption", "ten-mincho";
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "cronos-pro-caption", "ten-mincho";
+  font-weight: 400;
+}
+
+p {
+  font-family: "cronos-pro-display", "ten-mincho", sans-serif;
+  font-style: normal;
+}
+
+.log-container {
+  margin: 1em 0.4em;
+}
+
+.log-date {
+  opacity: 0.4;
+  font-family: "cronos-pro-display", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60%;
+  margin-right: 0.5em;
+}
+
+.log-title {
+  margin-top: 0em;
+  margin-bottom: 0.1em;
+}
+
+.log-content {
+  margin-top: -0.8em;
+}
+
+.button-delete {
+  background: rgb(202, 60, 60);
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#msg {
+  position: fixed;
+  bottom: 0;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
